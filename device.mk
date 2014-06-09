@@ -197,6 +197,13 @@ PRODUCT_PACKAGES += \
 # Enable Torch
 PRODUCT_PACKAGES += Torch
 
+# F2FS filesystem
+PRODUCT_PACKAGES += \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs \
+    f2fstat
+
 # for off charging mode
 PRODUCT_PACKAGES += \
     charger \

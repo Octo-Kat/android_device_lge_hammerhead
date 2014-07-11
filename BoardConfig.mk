@@ -136,5 +136,6 @@ COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
 
 # Toolchain Definitions
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.7
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.8
+TARGET_KERNEL_CUSTOM_TOOLCHAIN_PREFIX := arm-cortex_a15-linux-gnueabihf-
 TARGET_GCC_VERSION_AND := 4.8

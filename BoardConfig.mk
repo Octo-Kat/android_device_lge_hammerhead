@@ -141,3 +141,7 @@ COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.8
 TARGET_KERNEL_CUSTOM_TOOLCHAIN_PREFIX := arm-cortex_a15-linux-gnueabihf-
 TARGET_GCC_VERSION_AND := 4.8
+
+# Add 720p Bootanimation
+PRODUCT_COPY_FILES +=  \
+	vendor/oct/prebuilt/common/bootanimation/720.zip:system/media/bootanimation.zip

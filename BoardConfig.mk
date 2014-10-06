@@ -146,6 +146,3 @@ TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.9
 TARGET_KERNEL_CUSTOM_TOOLCHAIN_PREFIX := arm-cortex_a15-linux-gnueabihf-
 TARGET_GCC_VERSION_AND := 4.8
 
-# Add 720p Bootanimation
-#PRODUCT_COPY_FILES +=  \
-#	vendor/oct/prebuilt/common/bootanimation/1080.zip:system/media/bootanimation.zip
